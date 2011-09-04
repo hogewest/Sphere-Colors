@@ -1,0 +1,67 @@
+#container {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+}
+#title {
+  color: #eee;
+  font-size: 54px;
+  margin-top: 20px;
+}
+.show-grid {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.show-grid .column, .show-grid .columns {
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.grid-large {
+  height: 60px;
+  line-height: 60px;
+  font-size: 24px;
+}
+.grid-normal {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+}
+.grid-small {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.red {
+  background-color: #C6485B;
+  color: #fff;
+}
+.blue {
+  background-color: #029EBC;
+  color: #fff;
+}
+.yellow {
+  background-color: #F4C504;
+  color: #fff;
+}
+.green {
+  background-color: #7EBA03;
+  color: #fff;
+}
+.pink {
+  background-color: #E184A5;
+  color: #fff;
+}
+.purple {
+  background-color: #8C177E;
+  color: #fff;
+}
+.orange {
+  background-color: #F79708;
+  color: #fff;
+}
+.white {
+  background-color: #eee;
+  color: #000;
+}
