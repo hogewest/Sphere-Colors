@@ -2,6 +2,7 @@
 %html{:lang => 'ja'}
   %head
     %meta{:charset => 'UTF-8'}
+    %link{:href => '/favicon.ico', :rel => 'shortcut icon'}
     %link{:href => 'http://twitter.github.com/bootstrap/assets/css/bootstrap-1.2.0.min.css', :rel => 'stylesheet'}
     %link{:href => 'style.css', :rel => 'stylesheet'} 
 
@@ -17,7 +18,7 @@
           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
   %body
-    #container
+    .container
       %header
         #title
           %h1 Sphere Colors
