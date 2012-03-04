@@ -1,3 +1,7 @@
+body {
+  background-image: url("./background.png");
+  background-color: #BEBEBE;
+}
 h1 {
   font-family: 'Rammetto One', cursive;
 }
@@ -13,9 +17,9 @@ h1 {
 }
 .show-grid .column, .show-grid .columns {
   text-align: center;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  border-radius: 26px;
 }
 .grid-large {
   height: 60px;
@@ -61,6 +65,6 @@ h1 {
   color: #fff;
 }
 .white {
-  background-color: #eee;
+  background-color: #FFF;
   color: #000;
 }
