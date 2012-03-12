@@ -25,13 +25,13 @@
           %h1 Sphere Colors
       .row.show-grid
         %div{:class => "span16 columns grid-large #{@sphere['color']}"}
-          = @sphere["name"]
+          = @sphere['name']
       .row.show-grid
         - @sphere["members"].each do |member|
           %div{:class => "span4 columns grid-normal #{member['color']}"}
-            = member["name"]
+            = member['name']
       - @sphere["songs"].each_slice(3) do |songs|
         .row.show-grid
           - songs.each do |song| 
             %div{:class => "span-one-third columns grid-small #{song['color']}"}
-              = song["title"]
+              = song['title']
