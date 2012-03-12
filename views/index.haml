@@ -24,52 +24,14 @@
         #title
           %h1 Sphere Colors
       .row.show-grid
-        .span16.columns.grid-large.blue Sphere
+        %div{:class => "span16 columns grid-large #{@sphere['color']}"}
+          = @sphere["name"]
       .row.show-grid
-        .span4.columns.grid-normal.orange 戸松 遥
-        .span4.columns.grid-normal.purple 寿 美菜子
-        .span4.columns.grid-normal.pink 高垣 彩陽
-        .span4.columns.grid-normal.green 豊崎 愛生
-      .row.show-grid
-        .span-one-third.columns.grid-small.white Future Stream
-        .span-one-third.columns.grid-small.blue Treasures!!
-        .span-one-third.columns.grid-small.orange Super Noisy Nova
-      .row.show-grid
-        .span-one-third.columns.grid-small.blue Dangerous girls
-        .span-one-third.columns.grid-small.red 風をあつめて
-        .span-one-third.columns.grid-small.red Brave my heart
-      .row.show-grid
-        .span-one-third.columns.grid-small.blue 本当だから困るんだ
-        .span-one-third.columns.grid-small.pink PRINCESS CODE
-        .span-one-third.columns.grid-small.blue 君の空が晴れるまで
-      .row.show-grid
-        .span-one-third.columns.grid-small.blue らくがきDictionary
-        .span-one-third.columns.grid-small.blue Dream sign
-        .span-one-third.columns.grid-small.blue Joyful×Joyful
-      .row.show-grid
-        .span-one-third.columns.grid-small.blue サヨナラSEE YOU
-        .span-one-third.columns.grid-small.blue A.T.M.O.S.P.H.E.R.E
-        .span-one-third.columns.grid-small.blue REALOVE:REALIFE
-      .row.show-grid
-        .span-one-third.columns.grid-small.blue 手のひらに夢
-        .span-one-third.columns.grid-small.yellow Now loading...SKY!!
-        .span-one-third.columns.grid-small.blue かってな成長期
-      .row.show-grid
-        .span-one-third.columns.grid-small.red MOON SIGNAL
-        .span-one-third.columns.grid-small.blue クライマックスホイッスル
-        .span-one-third.columns.grid-small.pink Spring is here 
-      .row.show-grid
-        .span-one-third.columns.grid-small.blue キミが太陽
-        .span-one-third.columns.grid-small.blue Congratulations!!
-        .span-one-third.columns.grid-small.blue By MY PACE!!
-      .row.show-grid
-        .span-one-third.columns.grid-small.blue 夢奏レコード
-        .span-one-third.columns.grid-small.blue 虹を駆ける旋律
-        .span-one-third.columns.grid-small.green Hazy
-      .row.show-grid
-        .span-one-third.columns.grid-small.blue Neo Eden
-        .span-one-third.columns.grid-small.blue LET・ME・DO!!
-        .span-one-third.columns.grid-small.blue Feathering me, Y/N?
-      .row.show-grid
-        .span-one-third.columns.grid-small.blue HIGH POWERED
-        .span-one-third.columns.grid-small.blue Hello, my love
+        - @sphere["members"].each do |member|
+          %div{:class => "span4 columns grid-normal #{member['color']}"}
+            = member["name"]
+      - @sphere["songs"].each_slice(3) do |songs|
+        .row.show-grid
+          - songs.each do |song| 
+            %div{:class => "span-one-third columns grid-small #{song['color']}"}
+              = song["title"]

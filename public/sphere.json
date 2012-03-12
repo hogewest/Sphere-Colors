@@ -1,0 +1,152 @@
+{
+  "name"  : "Sphere",
+  "color" : "blue",
+  "members" : [
+    {
+      "name"  : "戸松 遥",
+      "color" : "orange"
+    },
+    {
+      "name"  : "寿 美菜子",
+      "color" : "purple"
+    },
+    {
+      "name"  : "高垣 彩陽",
+      "color" : "pink"
+    },
+    {
+      "name"  : "豊崎 愛生",
+      "color" : "green"
+    }
+  ],
+  "songs" : [
+    {
+      "title" : "Future Stream",
+      "color" : "white"
+    },
+    {
+      "title" : "Treasures!!",
+      "color" : "blue"
+    },
+    {
+      "title" : "Super Noisy Nova",
+      "color" : "orange"
+    },
+    {
+      "title" : "Dangerous girls",
+      "color" : "blue"
+    },
+    {
+      "title" : "風をあつめて",
+      "color" : "red"
+    },
+    {
+      "title" : "Brave my heart",
+      "color" : "red"
+    },
+    {
+      "title" : "本当だから困るんだ",
+      "color" : "blue"
+    },
+    {
+      "title" : "PRINCESS CODE",
+      "color" : "pink"
+    },
+    {
+      "title" : "君の空が晴れるまで",
+      "color" : "blue"
+    },
+    {
+      "title" : "らくがきDictionary",
+      "color" : "blue"
+    },
+    {
+      "title" : "Dream sign",
+      "color" : "blue"
+    },
+    {
+      "title" : "Joyful×Joyful",
+      "color" : "blue"
+    },
+    {
+      "title" : "サヨナラSEE YOU",
+      "color" : "blue"
+    },
+    {
+      "title" : "A.T.M.O.S.P.H.E.R.E",
+      "color" : "blue"
+    },
+    {
+      "title" : "REALOVE:REALIFE",
+      "color" : "blue"
+    },
+    {
+      "title" : "手のひらに夢",
+      "color" : "blue"
+    },
+    {
+      "title" : "Now loading...SKY!!",
+      "color" : "yellow"
+    },
+    {
+      "title" : "かってな成長期",
+      "color" : "blue"
+    },
+    {
+      "title" : "MOON SIGNAL",
+      "color" : "red"
+    },
+    {
+      "title" : "クライマックスホイッスル",
+      "color" : "blue"
+    },
+    {
+      "title" : "Spring is here",
+      "color" : "pink"
+    },
+    {
+      "title" : "キミが太陽",
+      "color" : "blue"
+    },
+    {
+      "title" : "Congratulations!!",
+      "color" : "blue"
+    },
+    {
+      "title" : "By MY PACE!!",
+      "color" : "blue"
+    },
+    {
+      "title" : "夢奏レコード",
+      "color" : "blue"
+    },
+    {
+      "title" : "虹を駆ける旋律",
+      "color" : "blue"
+    },
+    {
+      "title" : "Hazy",
+      "color" : "green"
+    },
+    {
+      "title" : "Neo Eden",
+      "color" : "blue"
+    },
+    {
+      "title" : "LET・ME・DO!!",
+      "color" : "blue"
+    },
+    {
+      "title" : "Feathering me, Y/N?",
+      "color" : "blue"
+    },
+    {
+      "title" : "HIGH POWERED",
+      "color" : "blue"
+    },
+    {
+      "title" : "Hello, my love",
+      "color" : "blue"
+    }
+  ]
+}
