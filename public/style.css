@@ -4,16 +4,17 @@ body {
 }
 h1 {
   font-family: 'Rammetto One', cursive;
+  font-size: 56px;
+  line-height: 96px;
+  margin-top: 20px;
 }
 #title {
   text-align: center;
   color: #eee;
-  font-size: 54px;
-  margin-top: 20px;
 }
 .show-grid {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .show-grid .column, .show-grid .columns {
   text-align: center;
@@ -22,19 +23,19 @@ h1 {
   border-radius: 26px;
 }
 .grid-large {
-  height: 60px;
-  line-height: 60px;
-  font-size: 24px;
+  height: 64px;
+  line-height: 64px;
+  font-size: 40px;
 }
 .grid-normal {
-  height: 40px;
-  line-height: 40px;
-  font-size: 18px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 26px;
 }
 .grid-small {
-  height: 30px;
-  line-height: 30px;
-  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
 }
 .red {
   background-color: #C6485B;
