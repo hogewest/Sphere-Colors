@@ -1,26 +1,24 @@
 body {
   background-image: url("./background.png");
   background-color: #BEBEBE;
+  margin-bottom: 60px;
 }
 h1 {
   font-family: 'Rammetto One', cursive;
   font-size: 56px;
   line-height: 96px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 #title {
   text-align: center;
-  color: #eee;
+  margin-bottom: 60px;
 }
-.show-grid {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.show-grid .column, .show-grid .columns {
+.show-grid [class*="span"] {
   text-align: center;
   -webkit-border-radius: 26px;
   -moz-border-radius: 26px;
   border-radius: 26px;
+  margin-bottom: 25px;
 }
 .grid-large {
   height: 64px;
