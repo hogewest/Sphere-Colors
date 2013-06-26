@@ -7,5 +7,6 @@ gem 'sinatra-reloader'
 gem 'json'
 
 group :production do
+  gem 'thin'
   gem "newrelic_rpm"
 end
