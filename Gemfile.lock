@@ -36,6 +36,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   haml
   json
   newrelic_rpm
