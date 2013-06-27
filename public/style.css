@@ -2,12 +2,13 @@ body {
   background-image: url("./background.png");
   background-color: #BEBEBE;
   margin-bottom: 60px;
+  font-family: 'Ubuntu', cursive;
 }
 h1 {
-  font-family: 'Rammetto One', cursive;
-  font-size: 56px;
+  font-size: 72px;
   line-height: 96px;
   margin-top: 60px;
+  font-weight: 700;
 }
 #title {
   text-align: center;
@@ -19,6 +20,7 @@ h1 {
   -moz-border-radius: 26px;
   border-radius: 26px;
   margin-bottom: 25px;
+
 }
 .grid-large {
   height: 64px;
