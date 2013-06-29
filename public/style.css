@@ -23,7 +23,7 @@ h1 {
 }
 .span12:hover, .span4:hover, .span3:hover {
   -webkit-transform: scale( 1.05 );
-  -moz-transform: scale( 1.05 );
+  transform: scale( 1.05 );
 }
 .grid-large {
   height: 64px;
