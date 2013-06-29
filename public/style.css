@@ -1,5 +1,5 @@
 body {
-  background-image: url("./background.png");
+  background-image: url('./background.png');
   background-color: #BEBEBE;
   margin-bottom: 60px;
   font-family: 'Ubuntu', cursive;
@@ -14,7 +14,7 @@ h1 {
   text-align: center;
   margin-bottom: 60px;
 }
-.show-grid [class*="span"] {
+.show-grid [class*='span'] {
   text-align: center;
   -webkit-border-radius: 26px;
   -moz-border-radius: 26px;
