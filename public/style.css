@@ -20,7 +20,10 @@ h1 {
   -moz-border-radius: 26px;
   border-radius: 26px;
   margin-bottom: 25px;
-
+}
+.span12:hover, .span4:hover, .span3:hover {
+  -webkit-transform: scale( 1.05 );
+  -moz-transform: scale( 1.05 );
 }
 .grid-large {
   height: 64px;
