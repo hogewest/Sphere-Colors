@@ -5,7 +5,7 @@
     %meta{:name => 'description', :content => 'The color image of the Sphere.'}
     %meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1.0'}
     %link{:href => '/favicon.ico', :rel => 'shortcut icon'}
-    %link{:href => '//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css', :rel => 'stylesheet'}
+    %link{:href => '//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css', :rel => 'stylesheet'}
     %link{:href => '//fonts.googleapis.com/css?family=Ubuntu:400,700', :rel => 'stylesheet'} 
     %link{:href => 'style.css', :rel => 'stylesheet'} 
 
@@ -27,15 +27,18 @@
       %header
         #title
           %h1 Sphere Colors
-      .row.show-grid
-        %div{:class => "span12 grid-large #{@sphere['color']}"}
-          = @sphere['name']
-      .row.show-grid
+      .row
+        %div{:class => 'col-sm-12'}
+          %div{:class => "grid grid-large #{@sphere['color']}"}
+            = @sphere['name']
+      .row
         - @sphere['members'].each do |member|
-          %div{:class => "span3 grid-normal #{member['color']}"}
-            = member['name']
+          %div{:class => 'col-sm-3'}
+            %div{:class => "grid grid-normal #{member['color']}"}
+              = member['name']
       - @sphere['songs'].each_slice(3) do |songs|
-        .row.show-grid
+        .row
           - songs.each do |song| 
-            %div{:class => "span4 grid-small #{song['color']}"}
-              = song['title']
+            %div{:class => 'col-sm-4'}
+              %div{:class => "grid grid-small #{song['color']}"}
+                = song['title']

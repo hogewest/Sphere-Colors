@@ -14,16 +14,10 @@ h1 {
   text-align: center;
   margin-bottom: 60px;
 }
-.show-grid [class*='span'] {
+.grid {
   text-align: center;
-  -webkit-border-radius: 26px;
-  -moz-border-radius: 26px;
   border-radius: 26px;
   margin-bottom: 25px;
-}
-.span12:hover, .span4:hover, .span3:hover {
-  -webkit-transform: scale( 1.05 );
-  transform: scale( 1.05 );
 }
 .grid-large {
   height: 64px;
