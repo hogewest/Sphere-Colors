@@ -5,6 +5,7 @@ require 'json'
 
 configure do
   set :haml, ugly: false, attr_wrapper: '"', escape_html: true
+  set :sphere, JSON.parse(File.read('./public/sphere.json'))
 end
 
 configure :production do
@@ -12,6 +13,6 @@ configure :production do
 end
 
 get '/' do
-  @sphere = JSON.parse(File.read('./public/sphere.json'))
+  @sphere = settings.sphere
   haml :index
 end
