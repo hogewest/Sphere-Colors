@@ -3,8 +3,6 @@ GEM
   specs:
     haml (4.0.5)
       tilt
-    heroku-deflater (0.5.3)
-      rack (>= 1.4.5)
     json (1.8.1)
     kgio (2.9.2)
     newrelic_rpm (3.9.0.229)
@@ -27,7 +25,6 @@ PLATFORMS
 
 DEPENDENCIES
   haml
-  heroku-deflater
   json
   newrelic_rpm
   sinatra
