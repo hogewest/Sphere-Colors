@@ -6,6 +6,6 @@ gem 'sinatra'
 gem 'json'
 
 group :production do
-  gem 'thin'
+  gem 'unicorn'
   gem 'newrelic_rpm'
 end
