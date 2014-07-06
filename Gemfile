@@ -7,5 +7,6 @@ gem 'json'
 
 group :production do
   gem 'unicorn'
+  gem 'heroku-deflater'
   gem 'newrelic_rpm'
 end
