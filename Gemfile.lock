@@ -3,9 +3,9 @@ GEM
   specs:
     haml (4.0.6)
       tilt
-    json (1.8.1)
-    kgio (2.9.2)
-    newrelic_rpm (3.9.8.273)
+    json (1.8.2)
+    kgio (2.9.3)
+    newrelic_rpm (3.10.0.279)
     rack (1.6.0)
     rack-protection (1.5.3)
       rack
