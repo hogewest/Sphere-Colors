@@ -9,10 +9,6 @@ configure do
   set :sphere, JSON.parse(File.read('./public/sphere.json'))
 end
 
-configure :production do
-  require 'newrelic_rpm'
-end
-
 get '/' do
   @sphere = settings.sphere
   haml :index

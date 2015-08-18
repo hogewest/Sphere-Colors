@@ -5,7 +5,6 @@ GEM
       tilt
     json (1.8.3)
     kgio (2.9.3)
-    newrelic_rpm (3.13.0.299)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -26,7 +25,6 @@ PLATFORMS
 DEPENDENCIES
   haml
   json
-  newrelic_rpm
   sinatra
   unicorn
 
