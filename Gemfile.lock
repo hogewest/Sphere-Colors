@@ -3,7 +3,6 @@ GEM
   specs:
     haml (4.0.7)
       tilt
-    json (2.0.3)
     kgio (2.11.0)
     rack (1.6.5)
     rack-protection (1.5.3)
@@ -23,7 +22,6 @@ PLATFORMS
 
 DEPENDENCIES
   haml
-  json
   sinatra
   unicorn
 
