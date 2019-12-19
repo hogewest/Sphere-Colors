@@ -7,7 +7,7 @@ GEM
       tilt
     kgio (2.11.2)
     mustermann (1.0.3)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-protection (2.0.5)
       rack
     raindrops (0.19.0)
