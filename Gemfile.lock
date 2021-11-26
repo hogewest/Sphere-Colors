@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    hamlit (2.15.0)
+    hamlit (2.15.1)
       temple (>= 0.8.2)
       thor
       tilt
@@ -12,7 +12,7 @@ GEM
     rack-protection (2.1.0)
       rack
     raindrops (0.19.2)
-    ruby2_keywords (0.0.4)
+    ruby2_keywords (0.0.5)
     sinatra (2.1.0)
       mustermann (~> 1.0)
       rack (~> 2.2)
@@ -34,7 +34,7 @@ DEPENDENCIES
   unicorn
 
 RUBY VERSION
-   ruby 2.7.4p191
+   ruby 2.7.5p203
 
 BUNDLED WITH
    2.1.4
